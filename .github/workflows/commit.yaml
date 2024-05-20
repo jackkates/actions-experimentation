@@ -1,6 +1,6 @@
-name: Format
+name: Update README
 
-on: workflow_call
+on: workflow_dispatch
 
 jobs:
   format-code:
