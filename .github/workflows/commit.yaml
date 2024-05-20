@@ -16,7 +16,9 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - run: echo "This is an updated README!" >> README.md
+      - run: echo "This is an really updated README!" >> README.md
 
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_author: FavoriteBot
